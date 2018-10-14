@@ -1,9 +1,14 @@
 README
 ===========================
 该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
+
 ****
-### Author:果冻虾仁
-### E-mail:Jelly.K.Wang@qq.com
+	
+|Author|果冻虾仁|
+|---|---
+|E-mail|Jelly.K.Wang@qq.com
+
+
 ****
 ## 目录
 * [横线](#横线)
@@ -98,6 +103,7 @@ ___
 
 也能实现换行效果，不过这个行间距有点大。
 #### 斜体、粗体、删除线
+
 |语法|效果|
 |----|-----|
 |`*斜体1*`|*斜体1*|
@@ -141,6 +147,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 链接
 ------
 ### 链接外部URL
+
 |#|语法|效果|
 |---|----|-----|
 |1|`[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")`|[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")|
@@ -154,6 +161,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 >>URL标识符是我起的名字，不知道是否准确。囧。。
 
 ### 链接本仓库里的URL
+
 |语法|效果|
 |----|-----|
 |`[我的简介](/example/profile.md)`|[我的简介](/example/profile.md)|
@@ -203,17 +211,6 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 2. 继承
 3. 多态
 
-#### 有序列表自动排序
-也可以在第一行指定`1. `，而接下来的几行用星号`*`（或者继续用数字1. ）就可以了，它会自动显示成2、3、4……。    
-面向对象的七大原则：
-
-1. 开闭原则
-* 里氏转换原则
-* 依赖倒转原则
-* 接口隔离原则
-* 组合/聚合复用原则
-* “迪米特”法则
-* 单一职责原则
 
 #### 多级有序列表
 和无序列表一样，有序列表也有多级结构：  
@@ -221,7 +218,7 @@ https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif
 1. 这是一级的有序列表，数字1还是1
    1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
       1. 这是三级的有序列表，数字在显示的时候变成了英文字母
-	    1. 四级的有序列表显示效果，就不再变化了，依旧是英文字母
+	 
 
 ### 复选框列表
 - [x] 需求分析
@@ -295,10 +292,11 @@ string &operator+(const string& A,const string& B) //cpp
 表格单元中的内容可以和其他大多数GFM语法配合使用，如：  
 #### 使用普通文本的删除线，斜体等效果
 
-| 名字 | 描述          |
+| 名字 | 描述 |
 | ------------- | ----------- |
 | Help      | ~~Display the~~ help window.|
 | Close     | _Closes_ a window     |
+
 #### 表格中嵌入图片（链接）
 其实前面介绍图片显示、图片链接的时候为了清晰就是放在在表格中显示的。
 
